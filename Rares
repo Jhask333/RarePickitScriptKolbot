@@ -1,0 +1,656 @@
+//    Rare
+
+// ##### RINGS ######################################################################################
+
+//[Type] == Ring && [Quality] == rare # [FCR] == 10 && [ToHit] >= 100 && [LifeLeech]+[ManaLeech] >= 10
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 36 && [MaxMana] >= 70 && [Strength]+[Dexterity] >= 25
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 36 && [MaxMana] >= 70 && [MaxHP] >= 30 && ([Strength] >= 10 || [Dexterity] >= 5)
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20 && ([MaxMana] >= 60 || [MaxHP] >= 25) && ([Strength] >= 5 || [Dexterity] >= 0)
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [Strength]+[Dexterity] >= 20 
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && [Strength]+[Dexterity] >= 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && ([Strength] >= 20 || [Strength]+[Dexterity] >= 20 || [Dexterity] >= 15)
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && ([Strength] >= 15 || [Dexterity] >= 10 ) && ([MaxMana] >= 50 || [MaxHp] >= 30 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Ring && [Quality] == rare # [FCR] == 10 && ([Strength]+[Dexterity] >= 30 || [MaxHp]+[MaxMana] >= 80)
+[Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [LifeLeech]+[ManaLeech] >= 10 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
+[Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [LifeLeech] >= 7 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 32 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
+[Type] == Ring && [Quality] == rare # [Tohit] >= 100 && [LifeLeech] >= 7 && [ManaLeech] >= 6 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 || [MaxHp] >= 30 || [Dexterity] >= 10 || [Strength] >= 10 || [MinDamage] >= 8)
+[Type] == Ring && [Quality] == rare # [Tohit] >= 100 && ([LifeLeech] >= 7 || [ManaLeech] >= 6) && ([Strength]+[Dexterity] >= 20 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [ManaLeech] >= 7 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 32 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
+[Type] == Ring && [Quality] == rare # [Tohit] >= 100 && [MinDamage] >= 8 && [MaxDamage] == 4 && ([Strength] >= 20 || [Dexterity] >= 15 || [MaxHp] >= 35) 
+[Type] == Ring && [Quality] == rare # [ToHit] >= 90 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 36 && [LifeLeech]+[ManaLeech] >= 11
+[Type] == Ring && [Quality] == rare # [ToHit] >= 90 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 36 && ([LifeLeech] >= 7 || [ManaLeech] >= 5) && ([Strength] >= 10 || [Dexterity] >= 5)
+[Type] == Ring && [Quality] == rare # [ToHit] >= 70 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30 && [LifeLeech]+[ManaLeech] >= 9
+[Type] == Ring && [Quality] == rare # [ToHit] >= 70 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30 && ([LifeLeech] >= 6 || [ManaLeech] >= 4) && ([Strength] >= 5 || [Dexterity] >= 0)
+[Type] == Ring && [Quality] == rare # [ToHit] >= 50 && [Strength]+[Dexterity] >= 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30 
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [Dexterity] >= 15 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [Tohit] >= 100 && ([MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [MinDamage] >= 8 && ([Tohit] >= 100 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [LifeLeech] >= 8 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [ManaLeech] >= 6 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [MaxHp] >= 30 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [MaxMana] >= 60 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxHp] >= 30)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([Tohit] >= 100 || [MinDamage] >= 8 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+//[Type] == Ring && [Quality] == rare # [Strength] >= 20 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 || ([MaxHp] >= 30 || [MaxMana] >= 80) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 36)
+//[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [Tohit] >= 100 && ([MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [MinDamage] >= 8 && ([Tohit] >= 100 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([Tohit] >= 100 || [MinDamage] >= 8 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [LifeLeech] >= 8 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [ManaLeech] >= 6 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [MaxHp] >= 30 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [MaxHp] >= 30 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxMana] >= 60)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && [MaxMana] >= 60 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxHp] >= 30)
+[Type] == Ring && [Quality] == rare # [Dexterity] >= 15 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 || ([MaxHp] >= 30 || [MaxMana] >= 80) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 36)
+[Type] == Ring && [Quality] == rare # [ItemMagicBonus] >= 25 && ([MaxMana] >= 90 || [MaxHp] >= 40 || [Strength] >= 20 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Ring && [Quality] == rare # [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 90
+[Type] == Ring && [Quality] == rare # [MaxMana] >= 90 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60
+
+// ##### AMULETS ####################################################################################
+
+[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MaxMana] >= 70 && [Strength]+[Dexterity] >= 35
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MaxMana] >= 70 && [MaxHP] >= 40 && ([Strength] >= 20 || [Dexterity] >= 10)
+[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && [MaxMana] >= 80 && [Strength]+[Dexterity] >= 40
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && [MaxMana] >= 80 && [MaxHP] >= 50 && ([Strength] >= 25 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && ([LifeLeech]+[ManaLeech] >= 11 || [Strength]+[Dexterity] >= 35)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && ([LifeLeech] >= 5 || [ManaLeech] >= 7) && ([Strength] >= 20 || [Dexterity] >= 10)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && ([LifeLeech]+[ManaLeech] >= 13 || [Strength]+[Dexterity] >= 40)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && ([LifeLeech] >= 6 || [ManaLeech] >= 8) && ([Strength] >= 25 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength]+[Dexterity] >= 30
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength] >= 21 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength]+[Dexterity] >= 20 && [ColdResist] >= 35
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Dexterity] >= 16 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [LifeLeech] >= 5 && [ManaLeech] >= 5
+[Type] == Amulet && [Quality] == rare # ([BarbCombatSkillTab] == 2 || [WarCriesskilltab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # ([BarbCombatSkillTab] == 2 || [WarCriesskilltab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15) 
+[Type] == Amulet && [Quality] == rare # [BarbarianSkills] == 2 && [ItemGoldBonus] >= 80 && [ItemMagicBonus] >= 25
+[Type] == Amulet && [Quality] == rare # ([TrapsSkillTab] == 2 || [MartialArtsSkillTab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55) 
+[Type] == Amulet && [Quality] == rare # ([TrapsSkillTab] == 2 || [MartialArtsSkillTab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # ([JavelinAndSpearSkillTab] == 2 || [BowAndCrossbowSkillTab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # ([JavelinAndSpearSkillTab] == 2 || [BowAndCrossbowSkillTab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # ([ShapeShiftingSkillTab] == 2 || [ElementalSkillTab] == 2 || [DruidSummoningSkillTab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # ([ShapeShiftingSkillTab] == 2 || [ElementalSkillTab] == 2 || [DruidSummoningSkillTab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # ([FireSkillTab] == 2 || [ColdSkillTab] == 2 || [LightningSkillTab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # ([FireSkillTab] == 2 || [ColdSkillTab] == 2 || [LightningSkillTab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [PaliCombatSkillTab] == 2 && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # [PaliCombatSkillTab] == 2 && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # ([PoisonAndBoneSkillTab] == 2 || [NecromancerSummoningSkillTab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
+[Type] == Amulet && [Quality] == rare # ([PoisonAndBoneSkillTab] == 2 || [NecromancerSummoningSkillTab] == 2) && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+
+// ##### CIRCLETS ###################################################################################
+
+[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && ([Strength]+[Dexterity] >= 15 || [MaxHP] >= 35 || [Sockets] == 2)
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && [FRW] >= 20
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && [MaxMana]+[MaxHP] >= 60
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && ([Strength] == 30 || [Dexterity] == 20)
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [225] >= 1 && [FRW] >= 30
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && ([Strength]+[Dexterity] >= 25 || [FRW] >= 30 || [Sockets] == 2 || [MaxHP] >= 30) 
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && [Strength] >= 15 && ([FRW] >= 30 || [Sockets] == 2 || [MaxHP]+[MaxMana] >= 35) 
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && [Dexterity] >= 15 && ([FRW] >= 30 || [Sockets] == 2 || [MaxHP]+[MaxMana] >= 35) 
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [FCR] == 20 && ([Strength] >= 20 || [Dexterity] >= 15) 
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # ([83] >= 2 || [188] >= 2) && [225] >= 1 && ([Strength] >= 20 || [Dexterity] >= 15 || [FRW] == 30) 
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # [Sockets] >= 2 && [ItemAddClassSkills] >= 2 && [Strength]+[Dexterity] >= 35
+//[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # [Sockets] >= 2 && [ItemAddClassSkills] >= 2 && ([Strength] >= 20 || [Dexterity] >= 10) && ([FRW] >= 30 || [FCR] >= 20)
+[Type] == Circlet && [Quality] == rare && [Flag] != ethereal # [AmazonSkills] == 2 && [FRW] >= 20 && ([Sockets] == 2 || [Strength]+[Dexterity] >= 15 || [MaxMana]+[MaxHP] >= 60)
+[Type] == Circlet && [Quality] == rare # ([AmazonSkills] == 2 || [AssassinSkills] == 2 || [NecromancerSkills] == 2) && [FRW] == 30 && [Strength] >= 20 && ([Dexterity] >= 15 || [MaxMana] >= 40 || [MaxHp] >= 20 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Circlet && [Quality] == rare # ([AmazonSkills] == 2 || [AssassinSkills] == 2 || [NecromancerSkills] == 2) && [FRW] == 30 && [Dexterity] >= 15 && ([MaxMana] >= 40 || [MaxHp] >= 20 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Circlet && [Quality] == rare # ([AmazonSkills] == 2 || [AssassinSkills] == 2 || [NecromancerSkills] == 2) && [FRW] == 30 && [Sockets] == 2
+[Type] == Circlet && [Quality] == rare # ([AmazonSkills] == 2 || [AssassinSkills] == 2 || [NecromancerSkills] == 2) && [FRW] == 30 && [Sockets] == 2 && ([Dexterity] >= 15 || [Strength] >= 20 || [MaxMana] >= 40 || [MaxHp] >= 20 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Circlet && [Quality] == rare # [BarbarianSkills] == 2 && [FCR] == 20 && [Strength] >= 20 && [Dexterity] >= 15 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 || [MaxMana] >= 60 || [ItemTohitPercentperLevel] >= 1 || [Sockets] >= 2)
+[Type] == Circlet && [Quality] == rare # [BarbarianSkills] == 2 && [FCR] == 20 && [Strength] >= 20 && [MaxHp] >= 40 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 || [MaxMana] >= 60 || [ItemTohitPercentperLevel] >= 1 || [Sockets] >= 2)
+[Type] == Circlet && [Quality] == rare # [BarbarianSkills] == 2 && [FCR] == 20 && [Dexterity] >= 15 && [MaxHp] >= 40 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 || [MaxMana] >= 60 || [ItemTohitPercentperLevel] >= 1 || [Sockets] >= 2)
+//[Type] == Circlet && [Quality] == rare # [ItemAddClassSkills] == 2 && [BarbarianSkills] != 1 && [BarbarianSkills] != 2 && [FCR] == 20 && [Sockets] == 2
+//[Type] == Circlet && [Quality] == rare # [ItemAddClassSkills] == 2 && [BarbarianSkills] != 1 && [BarbarianSkills] != 2 && [FCR] == 20 && [Strength] >= 20 && ([Dexterity] >= 15 || [MaxMana] >= 40 || [MaxHp] >= 20 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+//[Type] == Circlet && [Quality] == rare # [ItemAddClassSkills] == 2 && [BarbarianSkills] != 1 && [BarbarianSkills] != 2 && [FCR] == 20 && [Dexterity] >= 15 && ([MaxMana] >= 40 || [MaxHp] >= 20 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Circlet && [Quality] == rare # [PaladinSkills] == 2 && [ItemTohitPercentperLevel] >= 1 && ([Sockets] >= 2 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 || [MaxHp] >= 50 || [MaxMana] >= 60 || [Strength] >= 20 || [Dexterity] >= 15 || [FCR] == 20)
+[Type] == Circlet && [Quality] == rare # [PaladinSkills] == 2 && [FCR] == 20 && ([Dexterity] >= 15 || [MaxHp] >= 40 || [MaxMana] >= 60 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Circlet && [Quality] == rare # [PaladinSkills] == 2 && [Sockets] == 2 && (([Strength]+[Dexterity] >= 30 && [MaxHp] >= 40) || [Strength]+[Dexterity] >= 40) 
+//[Type] == Circlet && [Quality] == rare # [DruidSkills] == 2 && [FRW] >= 30 && ([225] >= 1 || [Sockets] == 2)
+//[Type] == Circlet && [Quality] == rare # [AssassinSkills] == 2 && [FRW] == 30 && [ItemTohitPercentperLevel] >= 1 && ([Sockets] >= 2 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 || [MaxHp] >= 40 || [MaxMana] >= 60 || [Strength] >= 20 || [Dexterity] >= 15 || [FCR] == 20)
+
+// ##### DRUID PELTS ################################################################################
+
+[Type] == pelt && [Quality] == rare && [Flag] != ethereal # ([DruidSkills] >= 2 || [ElementalSkillTab] >= 2) && [SkillTornado] == 3 
+[Type] == pelt && [Quality] == rare && [Flag] != ethereal # [Sockets] == 2 && ([DruidSkills] >= 2 || [ShapeShiftingSkillTab] == 2) && [225] >= 1 && ([SkillFireClaws] == 3 || [SkillFury] == 3)  
+[Type] == pelt && [Quality] == rare # ([DruidSkills] == 2 || [ElementalSkillTab] >=2) && ([SkillTornado] >= 3 || [SkillFissure] == 3) 
+[Type] == pelt && [Quality] == rare # ([DruidSkills] == 2 || [DruidSummoningSkillTab] >= 2) && [SkillSummonGrizzly] >= 3 
+
+// ##### BARB HELMS #################################################################################
+
+//[Type] == primalhelm && [Quality] == rare && [Class] >= exceptional && [Flag] != ethereal # [BarbarianSkills] >= 2 && ([SkillBattleOrders] >= 2 || [ItemGoldBonus] >= 70) 
+//[Type] == primalhelm && [Quality] == rare && [Flag] != ethereal # ([BarbarianSkills] == 2 || [WarCriesSkillTab] >= 2) && [SkillBattleOrders] >= 3 // ##### NON CLASS VISIONARY HELM ################
+
+// ##### ARTISANS/JEWELLERS SHIELDS #################################################################
+
+[Type] == shield && [Quality] == rare && [Flag] != ethereal # [Sockets] >= 2 && [FBR] >= 30 && [FHR] >= 17
+
+// ##### PALADIN SHIELDS ############################################################################
+
+//[Type] == auricshields && [Quality] == rare && [Flag] != ethereal # [Sockets] == 2 && [PaladinSkills] >= 2 && [FBR] == 30
+//[Type] == auricshields && [Quality] == rare && [Flag] == ethereal # [Sockets] == 2 && [PaladinSkills] >= 2 && [FBR] >= 15 && [252] >= 1
+
+// ##### NEC TROPHYS ################################################################################
+
+[Type] == voodooheads && [Quality] == rare && [Flag] != ethereal # ([NecromancerSkills] >= 2 || [PoisonAndBoneSkillTab] >= 2) && [FBR] >= 30 && ([Sockets] == 2 || [FHR] >= 17) && [SkillBoneSpear] == 3 
+
+// ##### GLOVES #####################################################################################
+
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [IAS] >= 20 && [Strength]+[Dexterity] == 30
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [IAS] >= 20 && [188] >= 2 && [0]+[2] >= 15 && [39]+[41]+[43] >= 30
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [IAS] >= 20 && [Strength]+[Dexterity] >= 20 && [39]+[41]+[43] >= 20 
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [IAS] >= 20 && ([188] >= 2 || [0] >=10 || [2] >= 10) && [39]+[41]+[43] >= 20 
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [JavelinAndSpearSkillTab] == 2 && [IAS] == 10
+
+// ##### BOOTS ######################################################################################
+
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] == 30 && [39]+[41]+[43] >= 75
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] == 30 && [39]+[41]+[43] >= 60
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 10 && [39]+[41]+[43] >= 50 && ([79] >= 78 || [MaxMana] >= 30)
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 10 && [39]+[41]+[43] >= 45 && [79] >= 78
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 20 && [2] >= 9 && [39]+[41]+[43] >= 60
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 20 && [2] >= 6 && [39]+[41]+[43] >= 50 
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 30 && [FHR] >= 10 && [39]+[41]+[43] >= 60
+[Type] == boots && [Quality] == rare && [Flag] != ethereal # [FRW] >= 30 && [FHR] >= 10 && [39]+[41]+[43] >= 45 
+
+// ##### BELTS ######################################################################################
+
+//[Type] == belt && [Quality] == rare && [Flag] != ethereal # [FHR] >= 24 && [Strength] >= 24 && [MaxHP] >= 50 && ([39]+[41]+[43] >= 30 || [ItemGoldBonus] >= 78)
+//[Type] == belt && [Quality] == rare && [Flag] != ethereal # [FHR] >= 24 && [Strength] >= 24 && ([MaxHP] >= 50 || [ItemGoldBonus] >= 78) 
+
+// ##### Amazon Jav & Bow ###########################################################################
+
+[Type] == amazonjavelin && [Quality] == rare # [AmazonSkills] >= 2 && [JavelinandSpearskilltab] >= 2 && [IAS] >= 30 
+[Type] == amazonjavelin && [Quality] == rare # [JavelinandSpearskilltab] >= 4 && [IAS] >= 30 
+[Type] == amazonbow && [Quality] == rare # [EnhancedDamage] >= 220 && [218] >= 4 && [224] >= 33 && [IAS] >= 10 && [ItemSkillOnHit] >= 1 
+[Type] == amazonbow && [Quality] == rare # [EnhancedDamage] >= 360 && [IAS] >= 10 && [Ias] >= 10 
+
+// ##### SCEPTER ####################################################################################
+
+//[Type] == Scepter && [Quality] == rare # ([PaladinSkills] >= 1 || [PaliCombatSkillTab] >= 2) && [SkillConcentration]+[SkillBlessedHammer] >= 4
+[Type] == Scepter && [Quality] == rare # ([PaladinSkills] >= 1 || [PaliCombatSkillTab] >= 2) && [SkillFistoftheHeavens]+[SkillConviction] >= 4
+//[Type] == Scepter && [Quality] == rare # ([PaladinSkills] >= 1 || [PaliCombatSkillTab] >= 2 || [OffensiveAurasSkillTab] >= 2) && [SkillFanaticism] >= 2
+//[Type] == Scepter && [Quality] == rare # ([PaladinSkills] >= 1 || [PaliCombatSkillTab] >= 2) && [SkillHolyShield] >= 2
+
+// ##### +5-6 SORC ORBS #############################################################################
+
+([Name] >= Eagleorb && [Name] <= DimensionalShard && [Type] != 85 && [Type] != 86) && [Quality] == rare # ([SorceressSkills] == 2 || [FireSkillTab] >= 2) && [SkillFiremastery] >= 1 && ([Skillfireball] == 3 || [SkillEnchant] == 3)
+([Name] >= Eagleorb && [Name] <= DimensionalShard && [Type] != 85 && [Type] != 86) && [Quality] == rare # ([SorceressSkills] == 2 || [LightningSkillTab] >= 2) && [SkillLightningmastery] >= 1 && ([SkillLightning] == 3 || [SkillChainLightning] == 3)
+([Name] >= Eagleorb && [Name] <= DimensionalShard && [Type] != 85 && [Type] != 86) && [Quality] == rare # ([SorceressSkills] == 2 || [ColdSkillTab] >= 2) && [SkillColdmastery] >= 1 && ([SkillBlizzard] == 3 || [SkillFrozenOrb] == 3)
+
+// ##### Trap Claws ################################################################################# 
+
+([Name] >= katar && [Name] <= ScissorsSuwayyah) && [Quality] == rare # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33 && [IAS] >= 30 
+([Name] >= katar && [Name] <= ScissorsSuwayyah) && [Quality] == rare # [EnhancedDamage] >= 360 && [IAS] >= 30 
+([Name] >= Handscythe && [Name] <= ScissorsSuwayyah) && [Quality] == rare # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33 && [IAS] >= 10 && [skilllightningsentry] >= 1  
+([Name] >= Handscythe && [Name] <= ScissorsSuwayyah) && [Quality] == rare # [EnhancedDamage] >= 360 && [IAS] >= 10 && [skilllightningsentry] >= 1 
+([Name] >= Handscythe && [Name] <= ScissorsSuwayyah) && [Quality] == rare # ([AssassinSkills] == 2 || [TrapsSkillTab] >=2) && [skilllightningsentry] == 3 
+
+// ##### ETH FOOLs/EDAM AXES  #######################################################################
+
+//[Name] == HandAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Axe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DoubleAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MilitaryPick && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Hatchet && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Cleaver && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == TwinAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Crowbill && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Naga && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Tomahawk && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == SmallCrescent && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == EttinAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WarSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == BerserkerAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == HandAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Axe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == DoubleAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == MilitaryPick && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Hatchet && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Cleaver && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == TwinAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Crowbill && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Naga && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Tomahawk && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == SmallCrescent && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == EttinAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WarSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == BerserkerAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Club`s ######################################################################
+
+//[Name] == Club && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == SpikedClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Mace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MorningStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Flail && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarHammer && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Cudgel && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BarbedClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == FlangedMace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == jaggedStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Knout && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BattleHammer && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Truncheon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == TyrantClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ReinforcedMace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == DevilStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Scourge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == legendaryMallet && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Club && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == SpikedClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Mace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == MorningStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Flail && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarHammer && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Cudgel && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BarbedClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == FlangedMace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == JaggedStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Knout && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BattleHammer && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Truncheon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == TyrantClub && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ReinforcedMace && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == DevilStar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Scourge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == LegendaryMallet && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM SWORDS ######################################################################
+
+//[Name] == ShortSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Scimitar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Sabre && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Falchion && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == CrystalSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BroadSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LongSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == TwoHandedSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Claymore && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GiantSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BastardSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Flamberge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GreatSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Gladius && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Cutlass && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Shamshir && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Tulwar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DimensionalBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BattleSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == RuneSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == AncientSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Espandon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DacianFalx && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == TuskSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GothicSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Zweihander && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ExecutionerSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Falcata && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Ataghan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ElegantBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == HydraEdge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == PhaseBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ConquestSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == CrypticSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MythicalSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LegendSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == HighlandBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == BalrogBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ChampionSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ColossusBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ColossusSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == ShortSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == Scimitar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Sabre && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Falchion && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == CrystalSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == BroadSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == LongSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == TwoHandedSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Claymore && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GiantSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == BastardSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == Flamberge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GreatSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == Gladius && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Cutlass && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Shamshir && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Tulwar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == DimensionalBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BattleSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == RuneSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == AncientSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == Espandon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == DacianFalx && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == TuskSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GothicSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350 
+//[Name] == Zweihander && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ExecutionerSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Falcata && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Ataghan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ElegantBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == HydraEdge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == PhaseBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ConquestSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == CrypticSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == MythicalSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == LegendSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == HighlandBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == BalrogBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ChampionSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ColossusSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ColossusBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Daggers #####################################################################
+
+//[Name] == Dagger && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Dirk && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Kris && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Blade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Poignard && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Rondel && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Cinquedeas && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Stiletto && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BoneKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MithrilPoint && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == FangedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == LegendSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Dagger && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Dirk && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Kris && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Blade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Poignard && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Rondel && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Cinquedeas && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Stiletto && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BoneKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == MithrilPoint && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == FangedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == LegendSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM + Magic SCEPTERS ############################################################
+
+//[Name] == Scepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GrandScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == RuneScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == HolyWaterSprinkler && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DivineScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == MightyScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == SeraphRod && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Caduceus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Scepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GrandScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == RuneScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == HolyWaterSprinkler && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == DivineScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == MightyScepter && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == SeraphRod && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Caduceus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Throwing Knife`s ############################################################
+
+//[Name] == ThrowingKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BalancedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BattleDart && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarDart && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == FlyingKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WingedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == ThrowingKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BalancedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BattleDart && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarDart && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == FlyingKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WingedKnife && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Throwing Axe`s ##############################################################
+
+//[Name] == ThrowingAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BalancedAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Francisca && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == hurlbat && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == FlyingAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WingedAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == BalancedAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ThrowingAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Hurlbat && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Francisca && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == FlyingAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WingedAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Throwing Spear`s + Zon Throwing Spear`s #####################################
+
+//[Name] == Javelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Pilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ShortSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Glaive && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ThrowingSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MaidenJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GreatPilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Simbilan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Spiculum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Harpoon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == CeremonialJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == HyperionJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == StygianPilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == BalrogSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GhostGlaive && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WingedHarpoon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == MatriarchalJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Javelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Pilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ShortSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Glaive && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == ThrowingSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == MaidenJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GreatPilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Simbilan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Spiculum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Harpoon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == CeremonialJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == HyperionJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == StygianPilum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == BalrogSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == GhostGlaive && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WingedHarpoon && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == MatriarchalJavelin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Spears ######################################################################
+
+//[Name] == Spear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Trident && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Brandistock && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Spetum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Pike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Fuscina && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarFork && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Yari && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Lance && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == HyperionSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == StygianPike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Mancatcher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GhostSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WarPike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Spear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Trident && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Brandistock && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Spetum && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Pike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Fuscina && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarFork && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Yari && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Lance && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == HyperionSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == StygianPike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Mancatcher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GhostSpear && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WarPike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### ETH FOOLS/EDAM Polearms ####################################################################
+
+//[Name] == Bardiche && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Voulge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Scythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Poleaxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Halberd && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WarScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LochaberAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Bill && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BattleScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Partizan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BecDeCorbin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GrimScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == OgreAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ColossusVoulge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Thresher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == CrypticAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GreatPoleaxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GiantThresher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == Bardiche && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Voulge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Scythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Poleaxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Halberd && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == WarScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == LochaberAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Bill && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BattleScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == Partizan && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == BecDeCorbin && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+//[Name] == GrimScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == OgreAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ColossusVoulge && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Thresher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == CrypticAxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == GreatPoleaxe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == GiantThresher && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+
+// ##### FOOLS/EDAM Bows + ZON BOWS #################################################################
+
+//[Name] == ShortBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == Hunter'sBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LongBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == CompositeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ShortBattleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LongBattleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ShortWarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LongWarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == StagBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ReflexBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == EdgeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == RazorBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == CedarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DoubleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ShortSiegeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == LargeSiegeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == RuneBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GothicBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == AshwoodBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == CeremonialBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == SpiderBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == MatriarchalBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == BladeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == ShadowBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == GreatBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == DiamondBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == CrusaderBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+//[Name] == WardBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == HydraBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GrandMatronBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[Name] == ShortBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == Hunter'sBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == LongBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == CompositeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == ShortBattleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == LongBattleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == ShortWarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == LongWarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == StagBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == ReflexBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == EdgeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == RazorBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == CedarBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == DoubleBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == ShortSiegeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == LargeSiegeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == RuneBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == GothicBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == AshwoodBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == CeremonialBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == SpiderBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == MatriarchalBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == BladeBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == ShadowBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == GreatBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+//[Name] == DiamondBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+[Name] == CrusaderBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+[Name] == WardBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+[Name] == HydraBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+[Name] == GrandMatronBow && [Quality] == rare && [Flag] != ethereal # [EnhancedDamage] >= 350
+
+// ##### FOOLS/EDAM CLAWS ###########################################################################
+
+[Name] == Katar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WristBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == HatchetHands && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Cestus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Claws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ScissorsSuwayyah && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == BladeTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ScissorsKatar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Quhab && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WristSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Fascia && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == HandScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GreaterClaws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == GreaterTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == ScissorsQuhab && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == Suwayyah && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WristSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == WarFist && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == BattleCestus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == FeralClaws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+[Name] == RunicTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 250 && [218] >= 4 && [224] >= 33
+
+[Name] == Katar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == HatcheTHands && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WristBlade && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Cestus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Claws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == BladeTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ScissorsSuwayyah && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ScissorsKatar && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Quhab && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WristSpike && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Fascia && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == HandScythe && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == GreaterClaws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == GreaterTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == ScissorsQuhab && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == Suwayyah && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WristSword && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == WarFist && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == BattleCestus && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == RunicTalons && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
+[Name] == FeralClaws && [Quality] == rare && [Flag] == ethereal # [EnhancedDamage] >= 350
